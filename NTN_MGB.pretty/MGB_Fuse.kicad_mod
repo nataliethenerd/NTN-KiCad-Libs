@@ -1,0 +1,98 @@
+(footprint "MGB_Fuse"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c37e3879-58a9-4c7a-8bcb-d1400972ee79")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MGB_Fuse"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3ca60e4c-2b6c-4df7-80cb-5f42b83e0c98")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0edf7302-556d-4c05-bff2-fd7010759c19")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "411ea629-b585-4f0a-b917-9f957e9edff1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "656548a3-c258-4910-aeb2-c584e21ef6a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy -2.5 3.650001) (xy -2.5 1.950001) (xy 2.1 1.95) (xy 2.1 3.65)
+		)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "84e86d36-47e4-448f-b890-13a6aea84f9c")
+	)
+	(pad "1" thru_hole circle
+		(at -3.900001 2.800001 90)
+		(size 2 2)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4448435c-22bb-4dab-9404-e327e50b674f")
+	)
+	(pad "2" thru_hole circle
+		(at 3.549999 2.8 90)
+		(size 2 2)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "201c0aaa-3634-45ed-bad0-829da6a5049b")
+	)
+)

@@ -1,0 +1,200 @@
+(footprint "MGB_BatteryContacts"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e69b8e9e-c3de-45e3-abcf-79ac8dd649a8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MGB_BatteryContacts"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "276259fc-01d2-4765-9da0-176ea4594982")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "74ef2c56-25e9-4616-b193-74e39564a63d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "702bc977-2538-4b6e-8389-c7129125a253")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "400936af-9ea4-461d-a5e3-78e99bd734e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(pad "1" thru_hole custom
+		(at -6.25 4.25)
+		(size 1.562 1.562)
+		(drill oval 2.5 1
+			(offset 0.0285 0.019)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -1.1715 -0.3905) (xy -1.152388 -0.511171) (xy -1.096921 -0.62003) (xy -1.01053 -0.706421) (xy -0.901671 -0.761888)
+					(xy -0.781 -0.781) (xy 0.781 -0.781) (xy 0.901671 -0.761888) (xy 1.01053 -0.706421) (xy 1.096921 -0.62003)
+					(xy 1.152388 -0.511171) (xy 1.1715 -0.3905) (xy 1.1715 0.3905) (xy 1.152388 0.511171) (xy 1.096921 0.62003)
+					(xy 1.01053 0.706421) (xy 0.901671 0.761888) (xy 0.781 0.781) (xy -0.781 0.781) (xy -0.901671 0.761888)
+					(xy -1.01053 0.706421) (xy -1.096921 0.62003) (xy -1.152388 0.511171) (xy -1.1715 0.3905)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(arc
+						(start -0.8785 -1.119)
+						(mid -1.585607 -0.826107)
+						(end -1.8785 -0.119)
+					)
+					(arc
+						(start -1.8785 2.581)
+						(mid -1.585607 3.288107)
+						(end -0.8785 3.581)
+					)
+					(arc
+						(start 1.9715 3.581)
+						(mid 2.678607 3.288107)
+						(end 2.9715 2.581)
+					)
+					(arc
+						(start 2.9715 -0.119)
+						(mid 2.678607 -0.826107)
+						(end 1.9715 -1.119)
+					)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "3866bc53-472f-4e53-8005-fbb1eedadfd3")
+	)
+	(pad "1" thru_hole roundrect
+		(at -5.6 6.7)
+		(size 3 2)
+		(drill oval 3.5 1
+			(offset 0.0285 0.019)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "9d92d7e2-20d4-4efd-b40f-1ac1fdde9ba5")
+	)
+	(pad "2" thru_hole custom
+		(at 2.3 25.85)
+		(size 1.562 1.562)
+		(drill oval 2.5 1
+			(offset 0.0285 0.019)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(arc
+						(start -0.8785 -3.669)
+						(mid -1.585607 -3.376107)
+						(end -1.8785 -2.669)
+					)
+					(arc
+						(start -1.8785 0.031)
+						(mid -1.585607 0.738107)
+						(end -0.8785 1.031)
+					)
+					(arc
+						(start 1.9715 1.031)
+						(mid 2.678607 0.738107)
+						(end 2.9715 0.031)
+					)
+					(arc
+						(start 2.9715 -2.669)
+						(mid 2.678607 -3.376107)
+						(end 1.9715 -3.669)
+					)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy -1.1715 -2.9405) (xy -1.152388 -3.061171) (xy -1.096921 -3.17003) (xy -1.01053 -3.256421) (xy -0.901671 -3.311888)
+					(xy -0.781 -3.331) (xy 0.781 -3.331) (xy 0.901671 -3.311888) (xy 1.01053 -3.256421) (xy 1.096921 -3.17003)
+					(xy 1.152388 -3.061171) (xy 1.1715 -2.9405) (xy 1.1715 -2.1595) (xy 1.152388 -2.038829) (xy 1.096921 -1.92997)
+					(xy 1.01053 -1.843579) (xy 0.901671 -1.788112) (xy 0.781 -1.769) (xy -0.781 -1.769) (xy -0.901671 -1.788112)
+					(xy -1.01053 -1.843579) (xy -1.096921 -1.92997) (xy -1.152388 -2.038829) (xy -1.1715 -2.1595)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "4d977591-d560-437c-9a27-cc7194fa18e6")
+	)
+	(pad "2" thru_hole roundrect
+		(at 2.85 23.35)
+		(size 3 2)
+		(drill oval 3.5 1
+			(offset 0.0285 0.019)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "16a34ee6-72cd-44c9-8d33-bb059fef479d")
+	)
+)
